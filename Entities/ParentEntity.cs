@@ -2,11 +2,11 @@
 {
     public class ParentEntity
     {
-        public int Id { get; set; } //Primary Key - Identity
-        public string CreatedBy { get; set; } = "System"; // nvarchar(max) not allowed to be null
-        public string? UpdatedBy { get; set; } //nvarhcar(max) nullable
-        public DateTime CreationDate { get; set; } = DateTime.Now; //DateTime not null
-        public DateTime? UpdatedDate { get; set; }//DateTime nullable
+        public int Id { get; set; } 
+        public string CreatedBy { get; set; } = "System"; 
+        public string? UpdatedBy { get; set; } 
+        public DateTime CreationDate { get; set; } = DateTime.Now; 
+        public DateTime? UpdatedDate { get; set; }
         public bool IsActive { get; set; } = true;
     }
 }
