@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "SmartChef_API.Controllers.AuthController",
+    "Method": "SignUp",
+    "RelativePath": "api/Auth/SignUp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "SmartChef_API.DTOs.Request.SignUpInputDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

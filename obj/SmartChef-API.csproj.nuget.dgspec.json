@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\SmartChef-API\\SmartChef-API.csproj": {}
+    "C:\\Users\\user\\Desktop\\fkdnf\\SmartChef-APIs\\SmartChef-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\SmartChef-API\\SmartChef-API.csproj": {
+    "C:\\Users\\user\\Desktop\\fkdnf\\SmartChef-APIs\\SmartChef-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\SmartChef-API\\SmartChef-API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\fkdnf\\SmartChef-APIs\\SmartChef-API.csproj",
         "projectName": "SmartChef-API",
-        "projectPath": "C:\\Users\\user\\source\\repos\\SmartChef-API\\SmartChef-API.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\fkdnf\\SmartChef-APIs\\SmartChef-API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\SmartChef-API\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\fkdnf\\SmartChef-APIs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

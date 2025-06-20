@@ -1,6 +1,8 @@
 
 using Microsoft.EntityFrameworkCore;
 using SmartChef_API.Context;
+using SmartChef_API.Interfaces;
+using SmartChef_API.Services.AuthServices;
 
 namespace SmartChef_API
 {
@@ -17,6 +19,9 @@ namespace SmartChef_API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<SmartChefDBContext>(opt => opt.UseSqlServer("Data Source=DESKTOP-CBGCB75;Initial Catalog=SmartChef-API;Integrated Security=True;Trust Server Certificate=True"));
+            builder.Services.AddScoped<IAuth, AuthServices>();
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
